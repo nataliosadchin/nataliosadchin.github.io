@@ -1,16 +1,56 @@
 .intro-message {
 	text-align: center;
+	margin: auto;
 	padding-top: 20%;
 	padding-bottom: 10%;
 	color: #fff;
+	background-color:rgba(66,88,99,0.9); clear:left;
 }
+
 body {
-	background: url(intro-bg.jpg) no-repeat center center;
+	background: url(background.jpg) no-repeat center center;
 }
-.signup-form {
-	color:#fff;
-	text-align: center;
+
+.service-list {
+	text-align: left;
+	list-style-type: none;
+    padding: 0px;
+    margin: 0px;
 }
+
+.service-list li {
+	background-image: url(doggy-icon.png);
+	background-repeat: no-repeat;
+    background-position: 0px 5px; 
+    padding-left: 20px;
+    padding-top: 8px;
+}
+
 .email {
 	color: #000;
 }
+
+.row {
+	padding:30px;
+}
+
+.nav li > a:hover {
+	background-color:rgba(0,0,0,0.6);
+}
+
+.nav li > a:active {
+	background-color:rgba(100,0,100,0.6);
+}
+
+.nav li > a:focus {
+	background-color:rgba(50,75,100, 0.6);
+}
+
+.nav li > a {
+	background-color:rgba(99,99,99, 0.6);
+}
+
+.licensing {
+	text-align: center;
+}
+
